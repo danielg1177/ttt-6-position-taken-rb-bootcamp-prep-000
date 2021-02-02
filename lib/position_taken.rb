@@ -1,6 +1,9 @@
+taken = nil
 def position_taken?(array, index)
   if array[index] == "" || index == nil || array[index] == " "
-    return false
+    taken = false
   else 
-    return true
+    taken = true
   end
+  
+  taken
