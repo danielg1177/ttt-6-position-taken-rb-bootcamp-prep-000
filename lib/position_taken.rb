@@ -6,6 +6,5 @@ def position_taken?(array, index)
     taken = false
   else 
     taken = true
-  end
-  
-  taken
+end
+taken
